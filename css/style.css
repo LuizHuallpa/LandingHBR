@@ -69,15 +69,15 @@ margin-top: auto;
     border:2px solid white;
     transition:.5s
 }
-.brokers:hover > .line:after{
+.brokers:hover  .line:after{
     width:40%
 }
 
-.invest:hover > .line2:after{
+.invest:hover  .line2:after{
     width:40%
 }
 
-.sistemas:hover > .line3:after{
+.sistemas:hover  .line3:after{
     width:40%
 }
 
@@ -86,25 +86,30 @@ margin-top: auto;
 	transform: translateX(0) scale(1);
 }
 
-.brokers:hover > .img{
+.brokers:hover  .img{
     transform: translatey(-100px) scale(1.2);
     
 } 
 
-.invest:hover > .img{
+.invest:hover  .img{
     transform: translatey(-100px) scale(1.2);
     
 } 
 
-.sistemas:hover > .img{
+.sistemas:hover  .img{
     transform: translatey(-100px) scale(1.1);
     
 } 
 
+.brokers:hover{
+    font-size: 10rem;
+}
+
 .estrelas{
     background-image: url('../images/EsferasDeLuzes_Prancheta.svg');
-    position: absolute;
+    position: fixed;
     height:100vh;
     width:100vw;
     opacity: 50%;
+    pointer-events:none;
 }
