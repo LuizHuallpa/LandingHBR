@@ -98,7 +98,7 @@ margin-top: auto;
 } 
 
 .sistemas:hover  .img{
-    transform: translatey(-100px) scale(1.1);
+    transform: translatey(-100px) scale(1.2);
     
 } 
 
@@ -122,3 +122,5 @@ margin-top: auto;
     opacity: 50%;
     pointer-events:none;
 }
+
+/* -webkit-animation: falling 5s 0s infinite; */
