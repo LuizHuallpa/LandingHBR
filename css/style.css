@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium';
 }
 
 .pai{
-    display:grid;  
-    grid-template-columns: 1fr 1fr 1fr; 
+    display:flex;  
     height:100vh;   
     color: white;
 }
@@ -15,6 +15,7 @@
     display:flex;
     flex-direction: column;
     overflow:hidden;
+    width:33.3%;
     
 }
 
@@ -102,7 +103,15 @@ margin-top: auto;
 } 
 
 .brokers:hover{
-    font-size: 10rem;
+    width: 40%;
+}
+
+.invest:hover{
+    width: 40%;
+}
+
+.sistemas:hover{
+    width: 40%;
 }
 
 .estrelas{
