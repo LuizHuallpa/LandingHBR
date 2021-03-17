@@ -14,6 +14,7 @@
 .pai>div{
     display:flex;
     flex-direction: column;
+    overflow:hidden;
     
 }
 
@@ -96,7 +97,7 @@ margin-top: auto;
 } 
 
 .sistemas:hover > .img{
-    transform: translatey(-100px) scale(1.2);
+    transform: translatey(-100px) scale(1.1);
     
 } 
 
