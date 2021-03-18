@@ -103,6 +103,7 @@ margin-top: auto;
     
 } 
 
+
 .brokers:hover{
     animation: grow forwards 0.5s ease-in-out ;
     
@@ -135,4 +136,12 @@ margin-top: auto;
         width:37%;
     }
 }
-/* -webkit-animation: falling 5s 0s infinite; */
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
